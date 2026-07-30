@@ -93,7 +93,7 @@ layers:
   - END
   - {t: PG DN, type: held}
   - {t: '-', s: _}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SYMBOL
   - $$mdi:keyboard-space$$
   - INS
   - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
@@ -140,12 +140,12 @@ layers:
   - '{'
   - '}'
   - '|'
-  - '~'
+  - {t: '~', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
