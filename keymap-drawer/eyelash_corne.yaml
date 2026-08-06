@@ -43,11 +43,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - LGUI
+  - NUMBER
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - $$mdi:keyboard-space$$
-  - NUMBER
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - $$mdi:keyboard-esc$$
@@ -92,11 +92,11 @@ layers:
   - RGB BRD
   - END
   - PG DN
-  - {t: '-', s: _}
+  - {t: '-', s: _, type: held}
   - SYMBOL
   - $$mdi:keyboard-space$$
   - INS
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - $$mdi:backspace-reverse-outline$$
   - Fn
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,11 +141,11 @@ layers:
   - '>'
   - '|'
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: ',', h: QWERTY, s: <, type: held alternate}
+  - {t: ',', h: QWERTY, s: <}
   - {t: ., h: NUMBER}
   Fn:
   - '&studio_unlock'
@@ -190,11 +190,11 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
   - {t: PAUSE BREAK, type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
 combos:
 - p: [1, 15, 29]
