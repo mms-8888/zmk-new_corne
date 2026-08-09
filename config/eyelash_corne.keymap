@@ -91,8 +91,8 @@
             display-name = "Fn";
             bindings = <
 &kp ESC         &kp F1          &kp F2        &kp F3        &kp F4        &kp F5                                      &mmv MOVE_UP                     &kp F6        &kp F7        &kp F8     &kp F9     &kp F10          &kp F11
-&kp LEFT_SHIFT  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 2                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader   &mkp LCLK     &mkp MCLK  &mkp RCLK  &kp PRINTSCREEN  &kp F12
-&kp LCTRL       &sys_reset      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR    &mkp MB5      &kp C_MUTE                    &mmv MOVE_DOWN                   &out OUT_USB  &out OUT_BLE  &mkp MB4   &mkp MB5   &kp SCROLLLOCK   &kp PAUSE_BREAK
+&kp LEFT_SHIFT  &kp B           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp M         &mkp LCLK     &mkp MCLK  &mkp RCLK  &kp PRINTSCREEN  &kp F12
+&kp LCTRL       &bt BT_CLR_ALL  &bt BT_SEL 4  &kp B         &bt BT_CLR    &kp B         &kp C_MUTE                    &mmv MOVE_DOWN                   &out OUT_USB  &out OUT_BLE  &mkp MB4   &mkp MB5   &kp SCROLLLOCK   &kp PAUSE_BREAK
                                               &trans        &trans        &trans                                                                       &to 0         &trans        &trans
             >;
 
