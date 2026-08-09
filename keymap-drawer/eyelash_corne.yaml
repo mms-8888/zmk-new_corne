@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:mouse-right-click-outline$$
+  - {t: NUMBER, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -92,7 +92,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - END
   - {t: PG DN, type: held}
-  - {t: '-', s: _, type: held alternate}
+  - {t: QWERTY, h: toggle, type: held alternate}
   - SYMBOL
   - $$mdi:keyboard-space$$
   - INS
