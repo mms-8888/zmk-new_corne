@@ -77,7 +77,7 @@ layers:
   - F8
   - F9
   - F10
-  - PG UP
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - F11
   - F12
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - END
-  - {t: PG DN, type: held}
+  - {t: INS, type: held}
   - {t: QWERTY, h: toggle, type: held alternate}
   - SYMBOL
   - $$mdi:keyboard-space$$
