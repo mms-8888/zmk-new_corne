@@ -88,7 +88,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - END
   - {t: INS, type: held}
