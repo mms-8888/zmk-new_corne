@@ -52,10 +52,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E  &kp R  &kp T                               &mmv MOVE_UP                     &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B      &to 1                    &mmv MOVE_DOWN                   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &lt 1 ENTER
-                              &mo 1  &mo 2  &kp SPACE                                                            &kp SPACE  &kp LCMD  &kp RALT
+&kp ESC         &kp Q  &kp W  &kp E  &kp R  &kp T                                   &mmv MOVE_UP                     &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B          &to 1                    &mmv MOVE_DOWN                   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &lt 1 ENTER
+                              &mo 1  &mo 2  &kp RA(SPACE)                                                            &kp SPACE  &kp LCMD  &kp RALT
             >;
 
             sensor-bindings =
@@ -90,10 +90,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp ESC         &kp F1          &kp F2        &kp F3        &kp F4        &kp F5                                      &mmv MOVE_UP                     &kp F6        &kp F7        &kp F8     &kp F9     &kp F10          &kp F11
-&kp LEFT_SHIFT  &kp B           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp M         &mkp LCLK     &mkp MCLK  &mkp RCLK  &kp PRINTSCREEN  &kp F12
-&kp LCTRL       &bt BT_CLR_ALL  &bt BT_SEL 4  &kp B         &bt BT_CLR    &kp B         &kp C_MUTE                    &mmv MOVE_DOWN                   &out OUT_USB  &out OUT_BLE  &mkp MB4   &mkp MB5   &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                              &trans        &trans        &trans                                                                       &to 0         &trans        &trans
+&kp ESC         &kp F1          &kp F2        &kp F3        &kp F4        &kp F5                                        &mmv MOVE_UP                     &kp F6        &kp F7        &kp F8     &kp F9     &kp F10          &kp F11
+&kp LEFT_SHIFT  &kp B           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp M         &mkp LCLK     &mkp MCLK  &mkp RCLK  &kp PRINTSCREEN  &kp F12
+&kp LCTRL       &bt BT_CLR_ALL  &bt BT_SEL 4  &kp B         &bt BT_CLR    &rgb_ug RGB_ON  &kp C_MUTE                    &mmv MOVE_DOWN                   &out OUT_USB  &out OUT_BLE  &mkp MB4   &mkp MB5   &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                              &trans        &trans        &trans                                                                         &to 0         &trans        &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
