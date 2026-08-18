@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - NUMBER
   - SYMBOL
-  - $$mdi:keyboard-space$$
+  - AltGr+$$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -181,7 +181,7 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - B
   - $$mdi:bluetooth-off$$
-  - B
+  - RGB ON
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - OUT USB
