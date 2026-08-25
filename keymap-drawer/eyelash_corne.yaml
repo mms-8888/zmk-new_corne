@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
   - F1
   - F2
   - F3
@@ -78,7 +78,7 @@ layers:
   - F9
   - F10
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-tab$$
   - F11
   - F12
   - SCROLL UP
