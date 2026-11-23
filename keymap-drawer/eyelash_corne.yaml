@@ -179,7 +179,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - BT CLR ALL
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - B
+  - A
   - $$mdi:bluetooth-off$$
   - RGB ON
   - $$mdi:volume-off$$
