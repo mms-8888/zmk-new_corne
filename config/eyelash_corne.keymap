@@ -78,9 +78,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp ESCAPE      &kp EXCL               &kp AT     &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS     &kp ASTRK      &kp LPAR          &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT  &kp SPACE              &mkp LCLK  &mkp MCLK       &mkp RCLK        &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL    &kp LBKT       &kp RBKT          &kp BSLH  &kp GRAVE
-&kp LCTRL       &kp LS(DOUBLE_QUOTES)  &to 0      &kp LEFT_BRACE  &kp RIGHT_BRACE  &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS     &kp LESS_THAN  &kp GREATER_THAN  &kp PIPE  &kp TILDE
+&kp ESCAPE      &kp EXCL               &kp AT     &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS     &kp LEFT_PARENTHESIS  &kp RPAR          &kp ASTRK  &kp BSPC
+&kp LEFT_SHIFT  &kp SPACE              &mkp LCLK  &mkp MCLK       &mkp RCLK        &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL    &kp LBKT              &kp RBKT          &kp BSLH   &kp GRAVE
+&kp LCTRL       &kp LS(DOUBLE_QUOTES)  &to 0      &kp LEFT_BRACE  &kp RIGHT_BRACE  &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS     &kp LESS_THAN         &kp GREATER_THAN  &kp PIPE   &kp TILDE
                                                   &to 3           &trans           &kp SPACE                                                             &kp RET    &lt 0 COMMA  &lt 1 PERIOD
             >;
 
